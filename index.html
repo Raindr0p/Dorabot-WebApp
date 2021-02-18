@@ -1,0 +1,55 @@
+
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Dorabot WebApp</title>
+  </head>
+  <body style="background-color: gainsboro;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Dorabot Reachability Check</a>
+      
+    </nav>
+    <div class="row" style="height: 1000px;">
+      <div class="col-9">
+        <iframe src="./3dworkspace.html" seamless="seamless" frameborder="0" style="position: relative; height: 101%;width: 101%;" ></iframe>
+      </div>
+      <div class="col-3" id="posPanel" style="padding: 10px;">
+        <h4>Position of the end effector</h4>
+        <br>
+        <h5 id="showPosX"></h5>
+        <br>
+        <h5 id="showPosY"></h5>
+        <br>
+        <h5 id="showPosZ"></h5>
+        <br>
+        <h4>Rotation of the end effector</h4>
+        
+        <br>
+
+         <h5 id="showRotX"></h5>
+         <br>
+        <h5 id="showRotY"></h5>
+        <br>
+        <h5 id="showRotZ"></h5>
+        <br>
+        <h4 id="showBound"></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        Component Selector
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
