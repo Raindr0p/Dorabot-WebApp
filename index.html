@@ -14,7 +14,7 @@
   <body style="background-color: gainsboro;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Dorabot Reachability Check</a>
-      
+
     </nav>
     <div class="row" style="height: 1000px;">
       <div class="col-9">
@@ -30,7 +30,7 @@
         <h5 id="showPosZ"></h5>
         <br>
         <h4>Rotation of the end effector</h4>
-        
+
         <br>
 
          <h5 id="showRotX"></h5>
@@ -40,6 +40,30 @@
         <h5 id="showRotZ"></h5>
         <br>
         <h4 id="showBound"></h4>
+
+        <form name = "input" action = "" method = "get">
+          <h5>Choose a base</h5>
+          <input type = "radio" name = "base" value = "irb4600_60_205_base">irb4600-60-205 base<br>
+          <input type = "radio" name = "base" value = "mh50_fixed_base">mh50 fixed base<br>
+          <input type = "radio" name = "base" value = "pisa_tower_base">pisa tower base
+          <input type = "submit" value = "Submit">
+        </form>
+
+        <form name = "input" action = "" method = "get">
+          <h5>Choose an arm</h5>
+          <input type = "radio" name = "arm" value = "irb4600_60_205">irb4600-60-205<br>
+          <input type = "radio" name = "arm" value = "jaka_zu_12">jaka-zu-12<br>
+          <input type = "radio" name = "arm" value = "mh50ii">mh50ii
+          <input type = "submit" value = "Submit">
+        </form>
+
+        <form name = "input" action = "" method = "get">
+          <h5>Choose an end effector</h5>
+          <input type = "radio" name = "end_effector" value = "cup15_dof0">cup15-dof0<br>
+          <input type = "radio" name = "end_effector" value = "cup46_dof0">cup46-dof0<br>
+          <input type = "radio" name = "end_effector" value = "pisa_tower_end_effector">pisa tower end effector
+          <input type = "submit" value = "Submit">
+        </form>
       </div>
     </div>
     <div class="row">

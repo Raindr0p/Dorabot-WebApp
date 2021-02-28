@@ -1,4 +1,4 @@
-const THREERobot = function (V_initial, limits, scene) {
+ const THREERobot = function (V_initial, limits, scene) {
   this.THREE = new THREE.Group()
 
   this.robotBones = []
